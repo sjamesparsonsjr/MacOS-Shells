@@ -19,16 +19,17 @@ Bassic terminal commands for my Mac OS X
 
 >> sudo (super user)  
 
->> clear or (command K)
->> cal (calander)
->> whoami (net work id)
->> ls (list current director)
->> cd (change directory)
+>> clear or (command K)  
+
+>> cal (calander)  
+>> whoami (net work id)  
+>> ls (list current director)  
+>> cd (change directory)  
 
 ### Network
->> ifconfig (shows network data)
->> sudo ssh _hostname_@_ipaddress
->> vnctigherserver (launches VNC, for screen sharing)
+>> ifconfig (shows network data)  
+>> sudo ssh _hostname_@_ipaddress  
+>> vnctigherserver (launches VNC, for screen sharing)  
 - AFP allows for file drop
 - VNC allows for screen sharing
 
