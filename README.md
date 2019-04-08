@@ -13,7 +13,7 @@ Bassic terminal commands for my Mac OS X
 OR
 export PS1='\[\e[1;36m\] >> \[\e[m\] ' [[color coded]]
 
-echo "Welcome to terminal, "; whoami
+echo "Welcome to terminal, "; ifconfig | grep "inet " | grep -v 127.0.0.1 | cut -d\  -f2
 echo "Today is $(date)"
 echo ""
 echo "Calendar : "
