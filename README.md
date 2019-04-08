@@ -5,10 +5,20 @@ Bassic terminal commands for my Mac OS X
 >>sudo spctl --master-disable
 
 ### This file lets you edit the bash tag
->> vi .bash_profile  
+>> vi .bash_profile  [[or any note editor, nano]]
+>> vi .bashrc [[for the header]]
 
 (vi is a text editor, like nano)
 (I like export PS1="\t [K]") this will show the time (\t) and K prompt
+OR
+export PS1='\[\e[1;36m\] >> \[\e[m\] ' [[color coded]]
+
+echo "Welcome to terminal, "; whoami
+echo "Today is $(date)"
+echo ""
+echo "Calendar : "
+cal
+
 
 ### Basic Commands
 >> ctl z (exit)  
