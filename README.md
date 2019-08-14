@@ -4,9 +4,12 @@ Bassic terminal commands for my Mac OS X
 ### This code enables System Preferences -> Security & Privacy -> Allow app downloaded from: Anywhere
 >>sudo spctl --master-disable
 
-### This file lets you edit the bash tag
+### This command lets you edit the bash tag
 >> vi .bash_profile  [[or any note editor, nano]]
 >> vi .bashrc [[for the header]]
+
+### This command lets you disbale iTunes media key
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
 (vi is a text editor, like nano)
 (I like export PS1="\t [K]") this will show the time (\t) and K prompt
