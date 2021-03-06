@@ -11,17 +11,13 @@ Bassic terminal commands for my Mac OS X
 ### This command lets you disbale iTunes media key
 \>>> `launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist`
 
-(vi is a text editor, like nano)
-(I like export PS1="\t [K]") this will show the time (\t) and K prompt
-OR
-export PS1='\[\e[1;36m\] >> \[\e[m\] ' [[color coded]]
+### Terminal Preference
+**Welcome**
+nano ~/.zshrc
+\>>> echo "Welcome to terminal, "; ipconfig getifaddr en1; echo "Calendar : "; cal
 
-echo "Welcome to terminal, "; ifconfig | grep "inet " | grep -v 127.0.0.1 | cut -d\  -f2
-echo "Today is $(date)"
-echo ""
-echo "Calendar : "
-cal
-
+**Prompt**
+PROMPT='%F{red}%D{%L:%M:%S} [K] %F{0} '
 
 ### Basic Commands
 \>>> `ctl z` (exit)  
